@@ -1,4 +1,2 @@
 
-## **Portfolio**
-
-[Live-link](phitruong.me)
+## [**Portfolio**](phitruong.me)
