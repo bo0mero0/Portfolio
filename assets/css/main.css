@@ -1704,6 +1704,8 @@
 		.image img {
 			display: block;
 			width: 100%;
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
 		}
 
 		.image.avatar48 {
@@ -1903,7 +1905,8 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #888;
+		/*background-color: #8ebebc;*/
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1921,7 +1924,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #b8b8b8;
+			/*background-color: #9ececc;*/
 		}
 
 		input[type="button"]:active,
@@ -1929,7 +1933,8 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: #606060;
+			/*background-color: #7eaeac;*/
 		}
 
 /* Item */
@@ -1944,6 +1949,8 @@
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
 		}
 
 			.item header h3 {
@@ -2183,11 +2190,12 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/banner2.jpg");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #212528;
+				/*background-color: #f5fafa;*/
 			}
 
 			#main > section.three {
@@ -2268,7 +2276,9 @@
 
 			.item {
 				margin-bottom: 20px;
+
 			}
+
 
 		/* Header */
 
